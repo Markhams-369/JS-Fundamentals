@@ -1,9 +1,10 @@
-let number = 4;
+// Access arguments passed
+const args = process.argv.slice(2);
 
-if (number > 0) {
-    console.log("The number is positive.");
-} else if (number < 0) {
-    console.log("The number is negative.");
+if (args.length === 0) {
+  console.log("No argument");
+} else if (args.length === 1) {
+  console.log("Argument found");
 } else {
-    console.log("The number is zero.");
+  console.log("Arguments found");
 }
