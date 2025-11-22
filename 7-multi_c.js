@@ -8,7 +8,7 @@ if (isNaN(num)) {
 } else {
   let output = "";
   for (let i = 0; i < num; i++) {
-    output += "C is fun\n";
+    output += "C is fun";
   }
   console.log(output.trim());
 }
